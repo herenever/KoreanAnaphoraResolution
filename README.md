@@ -2,12 +2,14 @@
 
 ***
 ## Base
+
 <img width="446" alt="diagram" src="https://user-images.githubusercontent.com/74087118/197397920-7c71f4e4-0493-4980-b801-9d151d3c1f6c.PNG">
+
 + 한국어 생략어(주어) 복원 모델입니다.
 + 사전 학습된 KoCharElectra LM에 BI-lstm layer를 쌓아 Finetuning 시킨 모델입니다.
 + 학습에 사용된 데이터
-++ 국립국어원 모두의 말뭉치의 **무형 대용어 복원 말뭉치 2020**
-++ 진술서 내용 중 일부를 파싱하여 제작된 데이터
+  ++ 국립국어원 모두의 말뭉치의 **무형 대용어 복원 말뭉치 2020**
+  ++ 진술서 내용 중 일부를 파싱하여 제작된 데이터
 + WS를 2 문장 이내로 학습시켰습니다.
 + validation Acc 는 80.58% 입니다.
 
